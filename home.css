@@ -1,0 +1,85 @@
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    font-family:'Montserrat Alternates', sans-serif ;
+    padding: 0;
+   
+    height: 100vh;
+    width: 100wh;
+    overflow: scroll;
+
+}
+.whole-cont{
+    display: flex;
+    flex-direction:row ;
+}
+/* sizing popular movies sextion to show all movies */
+.popular-movie{
+    width: 70vw;
+    height: 92vh;
+    background-color: white;
+    overflow: scroll;
+
+}
+
+ /*sizing the card component*/
+.card-size{
+    height:50vh;
+  
+    
+    overflow-y: scroll;
+    font-size: 0.6em;
+    margin-bottom: 20px;
+
+}
+.card-size::-webkit-scrollbar {
+    display: none;
+  }
+.cardimage{
+    height: 80%;
+}
+
+/*sizing fav movie container*/
+.fav-movie{
+    width: 30vw;
+    height: 92vh;
+    overflow: scroll;
+    background-color: rgb(92, 92, 92);
+   
+}
+.listFav-img{
+    height: 100%;
+  
+}
+.favlist-para{
+    overflow: hidden;
+}
+.my-favList{
+    background-color: rgb(23, 23, 26);
+    height:5rem;
+
+    width: 100%;
+    overflow: hidden;
+ 
+    border:1px solid rgb(4, 8, 47);
+}
+#fav-movie-list{
+    background: rgb(154, 158, 162);
+}
+
+/*single movie container*/
+
+.singleMovie-img{
+    height: 50%;
+    width: 40%;
+    margin-left: 30%;
+}
+
