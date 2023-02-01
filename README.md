@@ -6,3 +6,5 @@ features:
          user can add a movie in favourite list
          data will not be earesed after closing the browser
          by clicking on movie you can see full details of it 
+Demo:-
+https://shubh9752.github.io/MiniImdb/
